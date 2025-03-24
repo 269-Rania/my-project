@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'; 
+import MedicalErrors from './components/MedicalErrors.vue';
 
 defineProps({
   msg: String,
