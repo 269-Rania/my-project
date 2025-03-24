@@ -1,0 +1,144 @@
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+/* styles.css ou global.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Empêche le scroll horizontal */
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh; /* Assure que l'élément couvre toute la hauteur de l'écran */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #915506d5;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.router-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #613803;
+  color: white;
+  transition: background 0.3s;
+}
+
+.router-link:hover {
+  background-color: #5b3c02;
+}
+.background {
+  background-color:rgb(247, 245, 242); /* Gris clair */
+  min-height: 100vh; /* Prend toute la hauteur de l'écran */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 50px; /* Taille de police */
+  color:rgb(18, 13, 3);
+  margin-top: 0;  /* Supprime l’espace au-dessus */
+  padding-top: 1px; /* Optionnel : Ajouter un petit espace */
+  text-align: center; /* Centre le texte horizontalement */
+}
+h2 {
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 25px; /* Taille de police */
+  color:rgb(18, 13, 3);
+  margin-top: 0;  /* Supprime l’espace au-dessus */
+  padding-top: 1px; /* Optionnel : Ajouter un petit espace */
+  text-align: left, left ; 
+}
+p {
+font-family: 'Moon Dance', ;
+font-size: 14px;
+font-style: normal; 
+color: #555; /* Gris foncé */
+text-align: justify; /* Justifier le texte */
+max-width: 650px; /* Limite la largeur à 800px */
+margin: 20px auto; /* Centre horizontalement */
+line-height: 1.6; /* Améliore la lisibilité */
+display: block;
+width: 100%; /* Optionnel pour éviter qu’elles ne se regroupent */
+}
+h3{
+  font-family: "Cinzel", serif;
+  font-weight: normal;
+  font-size: 18px; /* Taille de police */
+  color:rgb(18, 13, 3);
+  margin-top: 0;  /* Supprime l’espace au-dessus */
+  padding-top: 1px; /* Optionnel : Ajouter un petit espace */
+  text-align: center; 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #724609;
+    background-color: #d89b31;
+  }
+  a:hover {
+    color: #c78934;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
